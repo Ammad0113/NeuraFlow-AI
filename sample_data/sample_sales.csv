@@ -1,0 +1,11 @@
+Date,Region,Product,Units_Sold,Unit_Price,Customer_Age,Churn_Risk,Satisfaction_Score
+2026-01-05,North,NeuraFlow Pro,15,499.99,34,0,4.8
+2026-01-08,West,NeuraFlow Pro,22,499.99,41,0,4.9
+2026-01-12,East,Automation Suite,8,899.00,29,1,3.2
+2026-01-15,South,ML Workspace,12,1200.00,52,0,4.6
+2026-01-18,North,NeuraFlow Pro,15,499.99,34,0,4.8
+2026-01-22,West,Automation Suite,5,899.00,,1,2.8
+2026-01-25,East,RAG Enterprise,30,1500.00,38,0,5.0
+2026-01-28,South,NeuraFlow Pro,18,499.99,45,0,4.7
+2026-02-02,North,ML Workspace,9,1200.00,31,0,4.4
+2026-02-05,West,RAG Enterprise,25,1500.00,49,0,4.9
