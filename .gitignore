@@ -1,0 +1,25 @@
+# Python & Environment
+.env
+*.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database & Storage
+*.db
+neuraflow.db
+storage/uploads/*
+storage/models/*
+storage/reports/*
+storage/rag_docs/*
+!storage/uploads/.gitkeep
+!storage/models/.gitkeep
+!storage/reports/.gitkeep
+!storage/rag_docs/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
