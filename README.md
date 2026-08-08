@@ -1,4 +1,4 @@
-# ⚡ NeuraFlow AI — Enterprise AI & Automation Platform
+# NeuraFlow AI — Enterprise AI & Automation Platform
 
 > **Full-Stack Enterprise AI Platform & Data Science Intelligence Suite**  
 > **Authored by:** Ammad Qaiser — Lead Systems Architect & Senior Full-Stack Engineer  
@@ -7,17 +7,17 @@
 
 ---
 
-## 🌟 Executive Summary
+## Executive Summary
 
-**NeuraFlow AI** is a state-of-the-art enterprise automation and artificial intelligence platform designed to eliminate manual workflow bottlenecks across document parsing, data intelligence, vector search, background task execution, and predictive machine learning.
+**NeuraFlow AI** is an enterprise automation and artificial intelligence platform designed to eliminate manual workflow bottlenecks across document parsing, data intelligence, vector search, background task execution, and predictive machine learning.
 
 Engineered with a decoupled microservices architecture, NeuraFlow combines an asynchronous **FastAPI REST Backend Engine** with an interactive **Streamlit Web Console** styled with dark-mode glassmorphic aesthetics. The platform integrates **Groq LLaMA 3.3 70B** for sub-150ms generative AI completions alongside local enterprise knowledge bases for grounded semantic retrieval.
 
 ---
 
-## 🚀 Key Modules & Capabilities
+## Key Modules & Capabilities
 
-### 1. 🤖 AI Assistant Engine
+### 1. AI Assistant Engine
 - **Groq LLaMA 3.3 70B Integration**: Sub-150ms streaming response latency across all topics.
 - **6 Specialty Execution Modes**:
   - `Code Mode`: Production-ready, type-annotated Python/Full-Stack code.
@@ -27,42 +27,42 @@ Engineered with a decoupled microservices architecture, NeuraFlow combines an as
   - `Brainstorm Mode`: Strategic product concepts and innovation roadmaps.
   - `General Q&A Mode`: Broad domain knowledge and enterprise reasoning.
 
-### 2. 📚 RAG Knowledge Base (Vector Semantic Search)
+### 2. RAG Knowledge Base (Vector Semantic Search)
 - **Document Ingestion**: Ingests PDF, DOCX, and TXT documents.
 - **Overlapping Vector Chunking**: 500-word text chunking with TF-IDF vectorization and cosine similarity.
 - **Overview Meta-Query Synthesizer**: Answers broad meta-questions (*"What is this PDF about?"*) using Groq LLaMA 3.3 grounded synthesis with exact source citations.
 - **Sanitized PDF Text Parser**: Filters raw PDF binary headers (`%PDF-1.4`, `/ASCII85Decode`) to ensure clean human citations.
 
-### 3. 📄 PDF Legal & Contract Intelligence
+### 3. PDF Legal & Contract Intelligence
 - Extracts executive summaries, word volume, and page metrics.
 - **Risk & Compliance Clause Extractor**: Scans contracts for liability caps, indemnification, penalty triggers, confidentiality, and termination rights.
 
-### 4. 📊 Excel Data Cleaning Engine
+### 4. Excel Data Cleaning Engine
 - **Automated Cleaning**: Purges duplicate rows and imputes missing numeric values (Mean, Median, Zero).
 - **NaN Serialization Guards**: Safe JSON output formatting handling pandas `NaN` values.
 - **Interactive Visualizations**: Generates Plotly dark-theme histograms and descriptive statistical summaries.
 
-### 5. ⚡ Python Automation Center
+### 5. Python Automation Center
 - **Folder Categorizer**: Sorts cluttered directories into subfolders (Documents, Images, Spreadsheets, Archives, Code).
 - **Batch File Renamer**: Sequential prefix renaming with dot-flexible, case-insensitive extension matching (`PNG`, `png`, `.png`).
 - **Non-Strict PDF Merger/Splitter**: Merges and splits multi-page PDFs without stream corruption errors.
 
-### 6. 🌐 Web Scraping Studio
+### 6. Web Scraping Studio
 - BeautifulSoup4 parser for product catalogs, news headlines, and HTML tables.
 - Exports scraped web data directly to **CSV**, **Excel (.xlsx)**, or **JSON**.
 
-### 7. 🧠 Scikit-Learn Machine Learning Workspace
+### 7. Scikit-Learn Machine Learning Workspace
 - Trains Classification & Regression models (Random Forest, Decision Trees, Gradient Boosting, Linear Models).
 - Evaluates Accuracy, F1-Score, R², and MSE metrics across test validation splits.
 - Displays interactive feature importance ranking bar charts and runs real-time JSON prediction inference.
 
-### 8. 🔗 API Integration Hub & 📈 Report Generator
+### 8. API Integration Hub & Report Generator
 - Real-time third-party API integrations (Weather, Currency Exchange, GitHub Repo Intelligence).
 - Generates styled PDF, Markdown, and CSV business reports with custom executive audit logs.
 
 ---
 
-## 🛠️ Technology Stack Specification
+## Technology Stack Specification
 
 | Architectural Layer | Framework / Technology | Engineering Role |
 | :--- | :--- | :--- |
@@ -75,7 +75,7 @@ Engineered with a decoupled microservices architecture, NeuraFlow combines an as
 
 ---
 
-## 💻 Installation & Local Setup
+## Installation & Local Setup
 
 ### Prerequisites
 - Python 3.10+
@@ -121,7 +121,7 @@ python -m streamlit run frontend/app.py --server.port 8501 --server.address 127.
 
 ---
 
-## 📈 System Benchmarks & SLA Targets
+## System Benchmarks & SLA Targets
 
 - **Groq LLM Latency**: `< 150 milliseconds`
 - **Vector RAG Search**: `< 1.2 seconds / 50 pages`
@@ -130,7 +130,7 @@ python -m streamlit run frontend/app.py --server.port 8501 --server.address 127.
 
 ---
 
-## 👤 Author & Architecture Sign-Off
+## Author & Architecture Sign-Off
 
 **Lead Systems Architect & Senior Full-Stack Engineer:**  
 **Ammad Qaiser**  
